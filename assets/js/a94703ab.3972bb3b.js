@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigiedaw=self.webpackChunkdigiedaw||[]).push([["6785"],{1820(e,a,i){i.d(a,{A:()=>s});var n=i(4848);i(6540);var r=i(9012);function s(e){return(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(r.A,{...e})})}}}]);
