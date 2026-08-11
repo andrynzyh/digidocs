@@ -1,0 +1,94 @@
+.card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 24px;
+  background: var(--ifm-background-surface-color);
+  margin: 2rem 0;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.stats div {
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.stats strong {
+  display: block;
+}
+
+.stats span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.passive {
+  padding: 12px;
+  border-left: 4px solid var(--ifm-color-primary);
+  margin-top: 10px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.passive strong {
+  display: block;
+}
+
+.skill {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.skillIcon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.passive {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.passiveIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.passive p {
+  margin: 4px 0 0;
+}

@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 20px;
+
+  background: #1b2944;
+
+  border: 1px solid #305080;
+  border-radius: 8px;
+}
+
+.digimonIcon {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+.subtitle {
+  color: #9db3d4;
+}
+
+.card {
+  padding: 20px;
+
+  border: 1px solid #305080;
+  border-radius: 8px;
+
+  background: #1b2944;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 12px;
+}
+
+.item img {
+  width: 48px;
+  height: 48px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

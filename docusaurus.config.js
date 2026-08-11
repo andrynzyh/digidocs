@@ -27,7 +27,7 @@ const config = {
 
     deploymentBranch: 'gh-pages',
     trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -44,10 +44,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          exclude: ['**/_drafts/**'],
         },
         blog: {
           showReadingTime: true,
@@ -75,10 +72,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
+      image: 'img/hero.png',
+colorMode: {
+  defaultMode: "dark",
+  disableSwitch: true,
+  respectPrefersColorScheme: false,
+},
+
       navbar: {
   title: "DigiDocs",
 
@@ -99,18 +99,8 @@ const config = {
       position: "left",
     },
     {
-      to: "/docs/category/digimon",
-      label: "Digimon",
-      position: "left",
-    },
-    {
-      to: "/docs/category/dungeon",
-      label: "Dungeons",
-      position: "left",
-    },
-    {
-      to: "/docs/category/evolution",
-      label: "Evolution",
+      to: "/digidocs/crafting",
+      label: "Crafting",
       position: "left",
     },
     {

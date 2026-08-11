@@ -1,0 +1,28 @@
+.section{
+    background:#1b2944;
+
+    border:1px solid #305080;
+    border-radius:10px;
+
+    overflow:hidden;
+}
+
+.header{
+    padding:14px 18px;
+
+    background:#203050;
+
+    border-bottom:1px solid #305080;
+}
+
+.header h2{
+    margin:0;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+}
+
+.body{
+    padding:18px;
+}

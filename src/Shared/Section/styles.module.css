@@ -1,0 +1,30 @@
+.section{
+    margin-bottom:24px;
+
+    border:1px solid #305080;
+    border-radius:8px;
+
+    background:#1b2944;
+
+    overflow:hidden;
+}
+
+.title{
+    margin:0;
+
+    padding:14px 18px;
+
+    font-size:1.15rem;
+
+    font-weight:700;
+
+    color:white;
+
+    background:#203050;
+
+    border-bottom:1px solid #305080;
+}
+
+.body{
+    padding:20px;
+}

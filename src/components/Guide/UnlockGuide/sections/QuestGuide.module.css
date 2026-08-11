@@ -1,0 +1,32 @@
+.heading {
+    margin: 0 0 14px;
+
+    font-size: 1.15rem;
+    font-weight: 700;
+
+    color: white;
+}
+
+.requirements {
+    margin: 0 0 28px;
+    padding-left: 22px;
+}
+
+.requirements li {
+    margin-bottom: 8px;
+
+    line-height: 1.6;
+}
+
+.steps {
+    margin: 0;
+    padding-left: 24px;
+}
+
+.steps li {
+    margin-bottom: 20px;
+}
+
+.stepText {
+    line-height: 1.7;
+}

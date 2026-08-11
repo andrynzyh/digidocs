@@ -1,0 +1,277 @@
+.container {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+
+  min-height: 600px;
+
+  margin: 2rem 0;
+
+  border: 1px solid #305080;
+  border-radius: 6px;
+
+  overflow: hidden;
+
+  background: #0f1c32;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+  background: #12213a;
+
+  border-right: 1px solid #305080;
+
+  overflow-y: auto;
+}
+
+.sidebarHeader {
+  padding: 10px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: #1c3968;
+
+  border-bottom: 1px solid #305080;
+}
+
+
+/* =========================
+   CATEGORY
+========================= */
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+
+  padding: 5px 8px;
+
+  color: white;
+
+  font-size: 14px;
+
+  background: #1c4380;
+
+  border-top: 1px solid #305080;
+  border-bottom: 1px solid #305080;
+}
+
+.categoryArrow {
+  width: 18px;
+
+  font-size: 16px;
+
+  color: #b8c8df;
+}
+
+
+/* =========================
+   DIGIMON LIST
+========================= */
+
+.digimonList {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.digimonItem {
+  width: 100%;
+
+  padding: 5px 12px;
+
+  text-align: left;
+
+  color: #e5edf8;
+
+  background: #142844;
+
+  border: none;
+  border-bottom: 1px solid #294263;
+
+  cursor: pointer;
+
+  font-size: 14px;
+}
+
+.digimonItem:hover {
+  background: #1d3557;
+}
+
+.digimonItem.active {
+  background: #244d87;
+
+  color: white;
+
+  box-shadow: inset 3px 0 0 #5aa9ff;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.content {
+  padding: 24px;
+
+  background: #101d32;
+
+  min-width: 0;
+}
+
+
+/* =========================
+   PRODUCT HEADER
+========================= */
+
+.productHeader {
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin-bottom: 20px;
+}
+
+.productIcon {
+  width: 64px;
+  height: 64px;
+
+  object-fit: contain;
+}
+
+.productHeader h2 {
+  margin: 0;
+
+  color: white;
+
+  font-size: 24px;
+}
+
+.productCategory {
+  margin-top: 4px;
+
+  color: #8fa9c9;
+
+  font-size: 14px;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.sectionTitle {
+  padding: 10px 12px;
+
+  margin-bottom: 10px;
+
+  color: white;
+
+  font-weight: bold;
+
+  background: #1c355b;
+
+  border: 1px solid #305080;
+}
+
+
+/* =========================
+   MATERIALS
+========================= */
+
+.materialList {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+.materialCard {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 8px 12px;
+
+  background: #162844;
+
+  border: 1px solid #29476b;
+
+  border-radius: 4px;
+
+  color: #e5edf8;
+}
+
+.materialLeft {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  min-width: 0;
+}
+
+.materialIcon {
+  width: 40px;
+  height: 40px;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+}
+
+.need {
+  padding: 4px 8px;
+
+  color: white;
+
+  background: #263f63;
+
+  border-radius: 4px;
+
+  font-weight: bold;
+}
+
+.empty {
+  padding: 30px;
+
+  text-align: center;
+
+  color: #7f95b3;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    max-height: 400px;
+
+    border-right: none;
+    border-bottom: 1px solid #305080;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+}
