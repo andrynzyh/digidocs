@@ -22,7 +22,7 @@ const config = {
     url: 'https://andrynzyh.github.io',
     baseUrl: '/digidocs/',
 
-    organizationName: 'digiedaw',
+    organizationName: 'andrynzyh',
     projectName: 'digidocs',
 
     deploymentBranch: 'gh-pages',
