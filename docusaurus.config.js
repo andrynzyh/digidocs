@@ -20,7 +20,7 @@ const config = {
   },
 
     url: 'https://andrynzyh.github.io',
-    baseUrl: '/',
+    baseUrl: '/digidocs/',
 
     organizationName: 'andrynzyh',
     projectName: 'digidocs',
